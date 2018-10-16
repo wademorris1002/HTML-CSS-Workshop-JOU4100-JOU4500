@@ -13,24 +13,25 @@ html, body {
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 55px;
+    float: none;
     position: absolute;
-    padding: 0px 0px 0px 20px;
-    z-index: 3;
+    padding: -50px 0px 30px 10px;
+    z-index: 2;
     color: #131359;
     font-weight: bold;
 }
 
 .top-menu {
     position: absolute;
-    top: 85px;
-    z-index: 2;
+    top: 110px;
+    z-index: 3;
     width: 100%;
 }
 
 .top-menu ul {
     list-style-type: none;
-    font-size: 20px; 
+    font-size: 16px; 
     float: left;
     margin-right: 20px;
 }
@@ -42,7 +43,7 @@ html, body {
 .top-menu li a:link, .top-menu li a:visited {
 	color: black;
 	text-decoration: none;
-	padding: 20px 20px 20.5px 20px;
+	padding: 8px 18px 8px 18px;
 }
 
 .top-menu li a:hover {
