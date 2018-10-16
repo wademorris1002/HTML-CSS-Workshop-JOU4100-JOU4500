@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0px 0px 0px 0px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Nunito'; font-style: normal;
     color: #666666;
 }
 
@@ -46,15 +46,11 @@ html, body {
 }
 
 .top-menu li a:hover {
-    border-style: solid;
-    border-width: 0px 0px 4px 0px;
-    border-color: red;
+    background-color: cadetblue;
 }
 
 .current-page-link {
-    border-style: solid;
-    border-width: 0px 0px 4px 0px;
-    border-color: darkblue;
+    background-color: darkseagreen;
 }
 
 .page-content {
